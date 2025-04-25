@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mHouse"
+        android:icon="@drawable/baseline_house"
+        android:title="House"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mWelcome"
+        android:title="Welcome"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mUserName"
+        android:title="User Name or Email"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mPassword"
+        android:title="PassWord"
+        app:showAsAction="never"/>
 
 </menu>
